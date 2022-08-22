@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'Hexl',
   // 'site' or 'doc'
   mode: 'site',
+  outputPath:"/",
   // more config: https://d.umijs.org/config
   logo: '/images/logo.jpg',
   navs: [
