@@ -11,8 +11,7 @@ export default defineConfig({
     // null, // null 值代表保留约定式生成的导航，只做增量配置
     {
       title: '操作文档',
-      path: '/manual',
-      children: ['/manual/docker', '/manual/sql'],
+      path: '/manual'
     },
     {
       title: 'GitHub',
