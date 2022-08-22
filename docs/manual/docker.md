@@ -8,7 +8,7 @@ toc: 'menu'
 ## redis
 ```shell
 docker pull redis
-docker run -d --name redis -p 6379:6379 redis --requirepass "1234!@#$qwerQWER"
+docker run -d --name redis -p 6379:6379 redis --requirepass "1234"
 ```
 
 ## nocos-server
