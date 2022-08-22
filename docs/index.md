@@ -1,7 +1,7 @@
 ---
 hero:
   title: Hexl
-  desc: 18120583038@163.com
+  desc: 
   actions:
     - text: 立即开始
       link: /manual/docker

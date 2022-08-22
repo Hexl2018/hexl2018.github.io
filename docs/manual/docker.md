@@ -25,14 +25,14 @@ curl -X GET "http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=portal&group=DEFAU
 docker pull mongo:latest
 docker run -itd --name mongo -p 27017:27017 mongo --auth
 $ docker exec -it mongo mongo admin
-# 创建一个名为 root，密码为 sibe@2016 的用户。
->  db.createUser({user:"root",pwd:"sibe@2016",roles:[{role:"root",db:"admin"}]});
+# 创建一个名为 root，密码为 123456 的用户。
+>  db.createUser({user:"root",pwd:"123456",roles:[{role:"root",db:"admin"}]});
 # 尝试使用上面创建的用户信息进行连接。
-> db.auth('root', 'sibe@2016')
+> db.auth('root', '123456')
 # 切换数据库
 > use appmsg
 # 授权用户
-> db.createUser({user:"sibe",pwd:"sibe2016",roles:[{role:"readWrite",db:"appmsg"}]});
+> db.createUser({user:"sibe",pwd:"123456",roles:[{role:"readWrite",db:"appmsg"}]});
 # 创建集合
 > db.createCollectin('msg')
 ```
