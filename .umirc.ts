@@ -6,7 +6,7 @@ export default defineConfig({
   mode: 'site',
   // more config: https://d.umijs.org/config
   logo: '/images/logo.jpg',
-  favicon: '/favicon.ico',
+  favicon: '/images/favicon.ico',
   fastRefresh: {},
   navs: [
     // null, // null 值代表保留约定式生成的导航，只做增量配置
