@@ -3,7 +3,7 @@ import { defineConfig } from 'dumi';
 export default defineConfig({
   title: 'Hexl',
   // 'site' or 'doc'
-  mode: 'site',
+  mode: 'site',                                                  
   outputPath:"/",
   // more config: https://d.umijs.org/config
   logo: '/images/logo.jpg',
