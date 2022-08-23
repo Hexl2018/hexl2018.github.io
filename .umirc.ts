@@ -4,7 +4,7 @@ export default defineConfig({
   title: 'Hexl',
   // 'site' or 'doc'
   mode: 'site',                                                  
-  base:"hexl2018.github.io",
+  base:"hexl2018.github.io/",
   publicPath:"hexl2018.github.io/",
   // more config: https://d.umijs.org/config
   logo: '/images/logo.jpg',
