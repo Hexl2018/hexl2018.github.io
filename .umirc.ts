@@ -4,9 +4,11 @@ export default defineConfig({
   title: 'Hexl',
   // 'site' or 'doc'
   mode: 'site',                                                  
-  outputPath:"/",
+  base:"hexl2018.github.io",
+  publicPath:"hexl2018.github.io/",
   // more config: https://d.umijs.org/config
   logo: '/images/logo.jpg',
+  mfsu: {},
   navs: [
     // null, // null 值代表保留约定式生成的导航，只做增量配置
     {
