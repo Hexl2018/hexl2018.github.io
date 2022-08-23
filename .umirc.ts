@@ -3,9 +3,7 @@ import { defineConfig } from 'dumi';
 export default defineConfig({
   title: 'Hexl',
   // 'site' or 'doc'
-  mode: 'site',                                                  
-  base:"hexl2018.github.io/",
-  publicPath:"hexl2018.github.io/",
+  mode: 'site',
   // more config: https://d.umijs.org/config
   logo: '/images/logo.jpg',
   mfsu: {},
@@ -13,7 +11,7 @@ export default defineConfig({
     // null, // null 值代表保留约定式生成的导航，只做增量配置
     {
       title: '操作文档',
-      path: '/manual'
+      path: '/manual',
     },
     {
       title: 'GitHub',
